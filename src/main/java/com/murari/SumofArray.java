@@ -8,5 +8,4 @@ public class SumofArray {
     public static int getSumofArrayElements(Integer[] intArray) {
         return Arrays.asList(intArray).stream().reduce(0, Integer::sum);
     }
-
 }
